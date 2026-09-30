@@ -53,7 +53,7 @@ time.sleep(4)  # Pausa de 4 segundos para o site carregar
 #pandas > pip install pandas > no terminal do VSCode
 import pandas as pd
 
-tabela = pd.read_csv("C:\\Users\\Danna Souza\\Downloads\\Aula 1 - Automações de Tarefas e Bots-20260928T224315Z-1-001\\Aula 1 - Automações de Tarefas e Bots\\produtos.csv") # O py precisa ter o arquivo Produtos.csv na mesma pasta que o código, ou colocar o caminho completo do arquivo
+tabela = pd.read_csv('produtos.csv') # O py precisa ter o arquivo Produtos.csv na mesma pasta que o código, ou colocar o caminho completo do arquivo
 
 print(tabela) # Mostra a tabela no terminal
 
